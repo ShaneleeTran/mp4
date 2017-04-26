@@ -1,24 +1,24 @@
 Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
-    Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   22.21.13.8189
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x156)
+    Vendor:   Intel
+    VRAM:     912 MB
+    Driver:   10.18.10.4358
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
-Platform assembly: C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Shanelee\Desktop\Assignment4\EXE\mp4Solution_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 144Hz; virtual: 5760x1239 at -3840,0
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\CSS385_ShadowSurfer_MP4\EXE\mp4Solution_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
@@ -26,29 +26,26 @@ The referenced script on this Behaviour (Game Object 'Canvas') is missing!
  
 (Filename:  Line: 1743)
 
-UnloadTime: 1.185535 ms
+UnloadTime: 4.083061 ms
 asd
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.331837 ms
+UnloadTime: 15.315614 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 257.
-Total: 0.140031 ms (FindLiveObjects: 0.013055 ms CreateObjectMapping: 0.007423 ms MarkObjects: 0.110335 ms  DeleteObjects: 0.008959 ms)
+Total: 0.465267 ms (FindLiveObjects: 0.026798 ms CreateObjectMapping: 0.019956 ms MarkObjects: 0.390003 ms  DeleteObjects: 0.027938 ms)
 
 The referenced script on this Behaviour (Game Object 'Canvas') is missing!
  
 (Filename:  Line: 1743)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.502783 ms
+UnloadTime: 0.764041 ms
 
-Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 281.
-Total: 0.384511 ms (FindLiveObjects: 0.034303 ms CreateObjectMapping: 0.025087 ms MarkObjects: 0.180223 ms  DeleteObjects: 0.144127 ms)
+Unloading 86 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 0.642023 ms (FindLiveObjects: 0.035351 ms CreateObjectMapping: 0.027938 ms MarkObjects: 0.290221 ms  DeleteObjects: 0.287370 ms)
 
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 3ea0 -> priority: 1 
-  Thread -> id: 3ea4 -> priority: 1 
-  Thread -> id: 3ea8 -> priority: 1 
-  Thread -> id: 3eac -> priority: 1 
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1fd4 -> priority: 1 
