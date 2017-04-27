@@ -1,4 +1,4 @@
-Initialize engine version: 5.6.0f3 (497a0f351392)
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -15,7 +15,9 @@ Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4So
 Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.109 seconds
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.351 seconds
 Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -24,18 +26,28 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initialized touch support.
 The referenced script on this Behaviour (Game Object 'Canvas') is missing!
  
-(Filename:  Line: 1743)
+(Filename:  Line: 1754)
 
-UnloadTime: 2.995727 ms
+UnloadTime: 2.731729 ms
 asd
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 13.590819 ms
+UnloadTime: 10.682310 ms
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 257.
-Total: 0.326713 ms (FindLiveObjects: 0.032500 ms CreateObjectMapping: 0.018815 ms MarkObjects: 0.245177 ms  DeleteObjects: 0.028509 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 268.
+Total: 0.360923 ms (FindLiveObjects: 0.040482 ms CreateObjectMapping: 0.023947 ms MarkObjects: 0.276537 ms  DeleteObjects: 0.019386 ms)
+
+Unloading the last loaded scene Assets/ShaneleeTran_mp3.unity(build index: 1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+ 
+(Filename:  Line: 198)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.623206 ms
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 254.
+Total: 0.368335 ms (FindLiveObjects: 0.033640 ms CreateObjectMapping: 0.024517 ms MarkObjects: 0.241756 ms  DeleteObjects: 0.067851 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2834 -> priority: 1 
+  Thread -> id: 2e70 -> priority: 1 

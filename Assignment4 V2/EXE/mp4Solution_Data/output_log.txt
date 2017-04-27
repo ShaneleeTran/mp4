@@ -1,0 +1,68 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x156)
+    Vendor:   Intel
+    VRAM:     912 MB
+    Driver:   10.18.10.4358
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.331 seconds
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V2\EXE\mp4Solution_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Canvas') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 2.239094 ms
+asd
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.379545 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 299.
+Total: 0.371186 ms (FindLiveObjects: 0.043333 ms CreateObjectMapping: 0.022807 ms MarkObjects: 0.282808 ms  DeleteObjects: 0.021666 ms)
+
+Unloading the last loaded scene Assets/ShaneleeTran_mp3.unity(build index: 2), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+ 
+(Filename:  Line: 198)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.864391 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 250.
+Total: 0.372327 ms (FindLiveObjects: 0.034210 ms CreateObjectMapping: 0.023377 ms MarkObjects: 0.202983 ms  DeleteObjects: 0.110614 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at LoadScene.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading the last loaded scene Assets/LoadingScene.unity(build index: 4), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+ 
+(Filename:  Line: 198)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.446450 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 299.
+Total: 0.314739 ms (FindLiveObjects: 0.033640 ms CreateObjectMapping: 0.022807 ms MarkObjects: 0.249168 ms  DeleteObjects: 0.008552 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 27b0 -> priority: 1 

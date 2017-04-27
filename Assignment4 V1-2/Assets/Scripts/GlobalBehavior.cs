@@ -110,7 +110,8 @@ public class GlobalBehavior : MonoBehaviour {
     {
         if (fuel >= 4)
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Victory");
+//            SceneManager.LoadScene("Level2");
             SceneManager.UnloadSceneAsync("ShaneleeTran_mp3");
         }
     }
