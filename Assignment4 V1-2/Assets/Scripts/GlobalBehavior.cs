@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GlobalBehavior : MonoBehaviour {
 
@@ -14,14 +15,16 @@ public class GlobalBehavior : MonoBehaviour {
 
     private int numOfEggs = 0;
     private int numOfEnemies = 0;
-    private const int initEnemies = 6;
+    private int initEnemies = 6;
+    private int currentLevel = 1;
+    private int fuelGoal = 4;
     public Text TextEggs, TextEnemies, TextFuel;
     public int fuel = 0;
 
     #region  support runtime enemy creation
     // to support time ...
     private float mPreEnemySpawnTime = -1f; // 
-    private const float kEnemySpawnInterval = 3.0f; // in seconds
+    private float kEnemySpawnInterval = 3.0f; // in seconds
 
     // spwaning enemy ...
     public GameObject mEnemyToSpawn = null;
@@ -35,10 +38,36 @@ public class GlobalBehavior : MonoBehaviour {
         mWorldBound = new Bounds(Vector3.zero, Vector3.one);
         UpdateWorldWindowBound();
         #endregion
-
-        setCountText();        
+        initScene();
+        setCountText();
 
         #region initialize enemy spawning
+        initializeEnemies();
+        
+        #endregion
+    }
+
+    void initScene()
+    {
+        if(SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            currentLevel = 1;
+            initEnemies = 6;
+            kEnemySpawnInterval = 5.0f;
+            fuelGoal = 4;
+        }
+        else if(SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            currentLevel = 2;
+            initEnemies = 12;
+            kEnemySpawnInterval = 3.0f;
+            fuelGoal = 10;
+        }
+        
+    }
+
+    void initializeEnemies()
+    {
         if (null == mEnemyToSpawn)
             mEnemyToSpawn = Resources.Load("Prefabs/Enemy") as GameObject;
 
@@ -46,7 +75,6 @@ public class GlobalBehavior : MonoBehaviour {
         {
             GameObject e = (GameObject)Instantiate(mEnemyToSpawn);
         }
-        #endregion
     }
 
     // Update is called once per frame
@@ -60,11 +88,38 @@ public class GlobalBehavior : MonoBehaviour {
         setCountText();
 
         if(Input.GetKeyDown(KeyCode.Escape))
-            Application.LoadLevel("Menu"); 
-        
-        if(fuel >= 4)
+            Application.LoadLevel("Menu");
+
+        levelUpdate(currentLevel);
+    }
+
+    void levelUpdate(int l)
+    {
+        switch (l)
         {
-            //Application.LoadLevel("Level2"); 
+            case 1:
+                updateLevelOne();
+                break;
+            case 2:
+                updateLevelTwo();
+                break;
+        }
+    }
+
+    void updateLevelOne()
+    {
+        if (fuel >= 4)
+        {
+            SceneManager.LoadScene("Level2");
+            SceneManager.UnloadSceneAsync("ShaneleeTran_mp3");
+        }
+    }
+
+    void updateLevelTwo()
+    {
+        if (fuel >= 10)
+        {
+            // Load level 3
         }
     }
 
@@ -72,7 +127,7 @@ public class GlobalBehavior : MonoBehaviour {
     {
         TextEggs.text = "Number of eggs: " + numOfEggs.ToString();
         TextEnemies.text = "Number of enemies: " + numOfEnemies.ToString();
-        TextFuel.text = "FUEL: " + fuel.ToString() + " / 4";
+        TextFuel.text = "FUEL: " + fuel.ToString() + " / " + fuelGoal;
     }
 	
 	#region Game Window World size bound support
@@ -147,3 +202,6 @@ public class GlobalBehavior : MonoBehaviour {
 	}
     #endregion
 }
+
+/*
+    */
