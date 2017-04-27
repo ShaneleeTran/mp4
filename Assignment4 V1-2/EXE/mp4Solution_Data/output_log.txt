@@ -15,7 +15,7 @@ Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4So
 Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.109 seconds
+- Completed reload, in  0.044 seconds
 Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Jayse\OneDrive\CSS385\mp4\Assignment4 V1-2\EXE\mp4Solution_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -26,16 +26,6 @@ The referenced script on this Behaviour (Game Object 'Canvas') is missing!
  
 (Filename:  Line: 1743)
 
-UnloadTime: 2.995727 ms
-asd
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 13.590819 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 257.
-Total: 0.326713 ms (FindLiveObjects: 0.032500 ms CreateObjectMapping: 0.018815 ms MarkObjects: 0.245177 ms  DeleteObjects: 0.028509 ms)
-
+UnloadTime: 3.227220 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2834 -> priority: 1 
+  Thread -> id: 8c0 -> priority: 1 
